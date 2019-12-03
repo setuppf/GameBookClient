@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: d6c5564db5c8ce149b80093df3c32c4b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip01 Footsteps
+    100002: Bip01 HeadNub
+    100004: Bip01 L Finger0Nub
+    100006: Bip01 L Finger1Nub
+    100008: Bip01 L Finger2Nub
+    100010: Bip01 L Finger3Nub
+    100012: Bip01 L Finger4Nub
+    100014: Bip01 L Toe0Nub
+    100016: Bip01 R Finger0Nub
+    100018: Bip01 R Finger1Nub
+    100020: Bip01 R Finger2Nub
+    100022: Bip01 R Finger3Nub
+    100024: Bip01 R Finger4Nub
+    100026: Bip01 R Toe0Nub
+    100028: Bone01
+    100030: Bone02
+    100032: Bone03
+    100034: Bone04
+    100036: Bone05
+    100038: Bone06
+    100040: Bone07
+    100042: Bone08
+    100044: Bone09
+    100046: Bone10
+    100048: Bone11
+    100050: Bone12
+    100052: Bone13
+    100054: Bone14
+    100056: Bone15
+    100058: Bone16
+    100060: Bone17
+    100062: Bone18
+    100064: Bone19
+    100066: Bone20
+    100068: Bone21
+    100070: Bone22
+    100072: Bone23
+    100074: Bone24
+    100076: Bone25
+    100078: Bone26
+    100080: Bone27
+    100082: Bone28
+    100084: Bone29
+    100086: Bone30
+    100088: Bone31
+    100090: Bone32
+    100092: Bone33
+    100094: Bone38
+    100096: Bone39
+    100098: Bone40
+    100100: p_m_calfl
+    100102: p_m_calfr
+    100104: p_m_center
+    100106: p_m_claviclel
+    100108: p_m_clavicler
+    100110: p_m_finger11l
+    100112: p_m_finger11r
+    100114: p_m_finger12l
+    100116: p_m_finger12r
+    100118: p_m_finger21l
+    100120: p_m_finger21r
+    100122: p_m_finger22l
+    100124: p_m_finger22r
+    100126: p_m_finger31l
+    100128: p_m_finger31r
+    100130: p_m_finger32l
+    100132: p_m_finger32r
+    100134: p_m_finger41l
+    100136: p_m_finger41r
+    100138: p_m_finger42l
+    100140: p_m_finger42r
+    100142: p_m_finger51l
+    100144: p_m_finger51r
+    100146: p_m_finger52l
+    100148: p_m_finger52r
+    100150: p_m_footl
+    100152: p_m_footr
+    100154: p_m_forearml
+    100156: p_m_forearmr
+    100158: p_m_handl
+    100160: p_m_handr
+    100162: p_m_head
+    100164: p_m_neck
+    100166: p_m_root
+    100168: p_m_shoulderl
+    100170: p_m_shoulderr
+    100172: p_m_spline1
+    100174: p_m_spline2
+    100176: p_m_spline3
+    100178: p_m_thighl
+    100180: p_m_thighr
+    100182: p_m_toel
+    100184: p_m_toer
+    100186: p_m_upperarml
+    100188: p_m_upperarmr
+    100190: p_m_weaponl
+    100192: p_m_weaponr
+    100194: //RootNode
+    100196: zhaoyun_body
+    100198: zhaoyun_head
+    100200: zhaoyun_ls_weapon01
+    100202: zhaoyun_pifeng
+    100204: zhaoyun_shoulder
+    400000: Bip01 Footsteps
+    400002: Bip01 HeadNub
+    400004: Bip01 L Finger0Nub
+    400006: Bip01 L Finger1Nub
+    400008: Bip01 L Finger2Nub
+    400010: Bip01 L Finger3Nub
+    400012: Bip01 L Finger4Nub
+    400014: Bip01 L Toe0Nub
+    400016: Bip01 R Finger0Nub
+    400018: Bip01 R Finger1Nub
+    400020: Bip01 R Finger2Nub
+    400022: Bip01 R Finger3Nub
+    400024: Bip01 R Finger4Nub
+    400026: Bip01 R Toe0Nub
+    400028: Bone01
+    400030: Bone02
+    400032: Bone03
+    400034: Bone04
+    400036: Bone05
+    400038: Bone06
+    400040: Bone07
+    400042: Bone08
+    400044: Bone09
+    400046: Bone10
+    400048: Bone11
+    400050: Bone12
+    400052: Bone13
+    400054: Bone14
+    400056: Bone15
+    400058: Bone16
+    400060: Bone17
+    400062: Bone18
+    400064: Bone19
+    400066: Bone20
+    400068: Bone21
+    400070: Bone22
+    400072: Bone23
+    400074: Bone24
+    400076: Bone25
+    400078: Bone26
+    400080: Bone27
+    400082: Bone28
+    400084: Bone29
+    400086: Bone30
+    400088: Bone31
+    400090: Bone32
+    400092: Bone33
+    400094: Bone38
+    400096: Bone39
+    400098: Bone40
+    400100: p_m_calfl
+    400102: p_m_calfr
+    400104: p_m_center
+    400106: p_m_claviclel
+    400108: p_m_clavicler
+    400110: p_m_finger11l
+    400112: p_m_finger11r
+    400114: p_m_finger12l
+    400116: p_m_finger12r
+    400118: p_m_finger21l
+    400120: p_m_finger21r
+    400122: p_m_finger22l
+    400124: p_m_finger22r
+    400126: p_m_finger31l
+    400128: p_m_finger31r
+    400130: p_m_finger32l
+    400132: p_m_finger32r
+    400134: p_m_finger41l
+    400136: p_m_finger41r
+    400138: p_m_finger42l
+    400140: p_m_finger42r
+    400142: p_m_finger51l
+    400144: p_m_finger51r
+    400146: p_m_finger52l
+    400148: p_m_finger52r
+    400150: p_m_footl
+    400152: p_m_footr
+    400154: p_m_forearml
+    400156: p_m_forearmr
+    400158: p_m_handl
+    400160: p_m_handr
+    400162: p_m_head
+    400164: p_m_neck
+    400166: p_m_root
+    400168: p_m_shoulderl
+    400170: p_m_shoulderr
+    400172: p_m_spline1
+    400174: p_m_spline2
+    400176: p_m_spline3
+    400178: p_m_thighl
+    400180: p_m_thighr
+    400182: p_m_toel
+    400184: p_m_toer
+    400186: p_m_upperarml
+    400188: p_m_upperarmr
+    400190: p_m_weaponl
+    400192: p_m_weaponr
+    400194: //RootNode
+    400196: zhaoyun_body
+    400198: zhaoyun_head
+    400200: zhaoyun_ls_weapon01
+    400202: zhaoyun_pifeng
+    400204: zhaoyun_shoulder
+    2100000: 'Material #68'
+    2100002: zhaoyun_body
+    2100004: zhaoyun_pifeng
+    2100006: 'Material #69'
+    2100008: zhaoyun_ls_weapon01
+    2300000: zhaoyun_ls_weapon01
+    3300000: zhaoyun_ls_weapon01
+    4300000: zhaoyun_shoulder
+    4300002: zhaoyun_body
+    4300004: zhaoyun_pifeng
+    4300006: zhaoyun_head
+    4300008: zhaoyun_ls_weapon01
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: zhaoyun_body
+    13700002: zhaoyun_head
+    13700004: zhaoyun_pifeng
+    13700006: zhaoyun_shoulder
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #68'
+    second: {fileID: 2100000, guid: ae1cd2d5abce3d4439eca4f93bc1c10b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #69'
+    second: {fileID: 2100000, guid: 1dcecb13ed2ae064aba70d64edc20c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zhaoyun_body
+    second: {fileID: 2100000, guid: 37d129849b547c245941c06a8aaac209, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zhaoyun_ls_weapon01
+    second: {fileID: 2100000, guid: 4f85b4eb688f7454294485bc4a253273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zhaoyun_pifeng
+    second: {fileID: 2100000, guid: ca57a443c807eb94c84ea1dd3901b887, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

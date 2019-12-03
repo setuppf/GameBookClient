@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 5caa8c5a3352a6e48af5d77df8b02e2c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: shizhu_ly_60_wa
+    100004: shizhu_ly_60_zhuti_collider
+    100006: shizhu_ly_60_zhuti
+    100008: shizhu_ly_60_jizuo
+    100010: shizhu_ly_60_zhuti 1
+    100012: shizhu_ly_60_jizuo_collider
+    100014: shizhu_ly_60_jizuo 1
+    100016: shizhu_ly_60_wa 1
+    100018: shizhu_ly_60_wa_collider
+    100020: shizhu_ly_60 1
+    400000: //RootNode
+    400002: shizhu_ly_60_wa
+    400004: shizhu_ly_60_zhuti_collider
+    400006: shizhu_ly_60_zhuti
+    400008: shizhu_ly_60_jizuo
+    400010: shizhu_ly_60_zhuti 1
+    400012: shizhu_ly_60_jizuo_collider
+    400014: shizhu_ly_60_jizuo 1
+    400016: shizhu_ly_60_wa 1
+    400018: shizhu_ly_60_wa_collider
+    400020: shizhu_ly_60 1
+    2300000: shizhu_ly_60_zhuti_collider
+    2300002: shizhu_ly_60_zhuti 1
+    2300004: shizhu_ly_60_jizuo_collider
+    2300006: shizhu_ly_60_jizuo 1
+    2300008: shizhu_ly_60_wa 1
+    2300010: shizhu_ly_60_wa_collider
+    3300000: shizhu_ly_60_zhuti_collider
+    3300002: shizhu_ly_60_zhuti 1
+    3300004: shizhu_ly_60_jizuo_collider
+    3300006: shizhu_ly_60_jizuo 1
+    3300008: shizhu_ly_60_wa 1
+    3300010: shizhu_ly_60_wa_collider
+    4300000: shizhu_ly_60_collider
+    4300002: shizhu_ly_60
+    4300004: shizhu_ly_60_zhuti
+    4300006: shizhu_ly_60_jizuo
+    4300008: shizhu_ly_60_collider01
+    4300010: shizhu_ly_60_wa
+    4300012: shizhu_ly_60_zhuti_collider
+    4300014: shizhu_ly_60_jizuo_collider
+    4300016: shizhu_ly_60_wa_collider
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

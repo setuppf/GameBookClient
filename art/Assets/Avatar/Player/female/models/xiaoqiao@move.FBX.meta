@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: eb3eb79284c96c144bb2a2da3d401653
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip01 Footsteps
+    100002: Bip01 HeadNub
+    100004: Bip01 L Finger0Nub
+    100006: Bip01 L Finger1Nub
+    100008: Bip01 L Finger2Nub
+    100010: Bip01 L Finger3Nub
+    100012: Bip01 L Toe0Nub
+    100014: Bip01 R Finger0Nub
+    100016: Bip01 R Finger1Nub
+    100018: Bip01 R Finger2Nub
+    100020: Bip01 R Finger3Nub
+    100022: Bip01 R Toe0Nub
+    100024: Bone01
+    100026: Bone02
+    100028: Bone03
+    100030: Bone04
+    100032: Bone05
+    100034: Bone06
+    100036: Bone07
+    100038: Bone08
+    100040: Bone09
+    100042: Bone10
+    100044: Bone11
+    100046: Bone12
+    100048: Bone18
+    100050: Bone25
+    100052: Bone26
+    100054: Bone29
+    100056: Bone42
+    100058: Bone45
+    100060: Bone46
+    100062: Bone47
+    100064: Bone48
+    100066: Bone49
+    100068: Bone50
+    100070: Bone51
+    100072: Bone52
+    100074: Bone56
+    100076: Bone57
+    100078: Bone58
+    100080: Bone59
+    100082: Bone60
+    100084: Bone61
+    100086: p_m_calfl
+    100088: p_m_calfr
+    100090: p_m_center
+    100092: p_m_claviclel
+    100094: p_m_clavicler
+    100096: p_m_finger11l
+    100098: p_m_finger11r
+    100100: p_m_finger21l
+    100102: p_m_finger21r
+    100104: p_m_finger31l
+    100106: p_m_finger31r
+    100108: p_m_finger41l
+    100110: p_m_finger41r
+    100112: p_m_footl
+    100114: p_m_footr
+    100116: p_m_forearml
+    100118: p_m_forearmr
+    100120: p_m_handl
+    100122: p_m_handr
+    100124: p_m_head
+    100126: p_m_neck
+    100128: p_m_root
+    100130: p_m_shoulderl
+    100132: p_m_shoulderr
+    100134: p_m_spline1
+    100136: p_m_spline2
+    100138: p_m_spline3
+    100140: p_m_thighl
+    100142: p_m_thighr
+    100144: p_m_toel
+    100146: p_m_toer
+    100148: p_m_upperarml
+    100150: p_m_upperarmr
+    100152: p_m_weaponl
+    100154: p_m_weaponr
+    100156: //RootNode
+    100158: xiaoqiao_body01
+    100160: xiaoqiao_face01
+    400000: Bip01 Footsteps
+    400002: Bip01 HeadNub
+    400004: Bip01 L Finger0Nub
+    400006: Bip01 L Finger1Nub
+    400008: Bip01 L Finger2Nub
+    400010: Bip01 L Finger3Nub
+    400012: Bip01 L Toe0Nub
+    400014: Bip01 R Finger0Nub
+    400016: Bip01 R Finger1Nub
+    400018: Bip01 R Finger2Nub
+    400020: Bip01 R Finger3Nub
+    400022: Bip01 R Toe0Nub
+    400024: Bone01
+    400026: Bone02
+    400028: Bone03
+    400030: Bone04
+    400032: Bone05
+    400034: Bone06
+    400036: Bone07
+    400038: Bone08
+    400040: Bone09
+    400042: Bone10
+    400044: Bone11
+    400046: Bone12
+    400048: Bone18
+    400050: Bone25
+    400052: Bone26
+    400054: Bone29
+    400056: Bone42
+    400058: Bone45
+    400060: Bone46
+    400062: Bone47
+    400064: Bone48
+    400066: Bone49
+    400068: Bone50
+    400070: Bone51
+    400072: Bone52
+    400074: Bone56
+    400076: Bone57
+    400078: Bone58
+    400080: Bone59
+    400082: Bone60
+    400084: Bone61
+    400086: p_m_calfl
+    400088: p_m_calfr
+    400090: p_m_center
+    400092: p_m_claviclel
+    400094: p_m_clavicler
+    400096: p_m_finger11l
+    400098: p_m_finger11r
+    400100: p_m_finger21l
+    400102: p_m_finger21r
+    400104: p_m_finger31l
+    400106: p_m_finger31r
+    400108: p_m_finger41l
+    400110: p_m_finger41r
+    400112: p_m_footl
+    400114: p_m_footr
+    400116: p_m_forearml
+    400118: p_m_forearmr
+    400120: p_m_handl
+    400122: p_m_handr
+    400124: p_m_head
+    400126: p_m_neck
+    400128: p_m_root
+    400130: p_m_shoulderl
+    400132: p_m_shoulderr
+    400134: p_m_spline1
+    400136: p_m_spline2
+    400138: p_m_spline3
+    400140: p_m_thighl
+    400142: p_m_thighr
+    400144: p_m_toel
+    400146: p_m_toer
+    400148: p_m_upperarml
+    400150: p_m_upperarmr
+    400152: p_m_weaponl
+    400154: p_m_weaponr
+    400156: //RootNode
+    400158: xiaoqiao_body01
+    400160: xiaoqiao_face01
+    2100000: xiaoqiao_body01
+    2100002: xiaoqiao_face01
+    4300000: xiaoqiao_body01
+    4300002: xiaoqiao_face01
+    7400000: move
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: xiaoqiao_body01
+    13700002: xiaoqiao_face01
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

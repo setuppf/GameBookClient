@@ -1,0 +1,98 @@
+﻿<metro:MetroWindow x:Class="Editor.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:local="clr-namespace:Editor"
+        xmlns:windows="clr-namespace:Editor.Windows"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+        dialog:DialogParticipation.Register="{Binding}"
+        d:DataContext="{d:DesignInstance windows:MainWindowViewModel}"
+        mc:Ignorable="d"
+        ShowTitleBar="False"
+        ShowIconOnTitleBar="True"
+        Icon="/editor.ico"
+        Title="Editor" Height="600" Width="900">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.DataGrid.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <Ellipse x:Key="ResourceMenuIcon"
+                     Width="16"
+                     Height="16"
+                     x:Shared="False"
+                     Fill="{Binding ColorBrush, Mode=OneWay}" />
+
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal"  Margin="0,0,0,2">
+            <StackPanel  Orientation="Horizontal">
+                <metro:DropDownButton Margin="5"
+                                         Content="表格"
+                                         DisplayMemberPath="Name"
+                                         ItemsSource="{Binding Resources}">
+                    <metro:DropDownButton.ItemContainerStyle>
+                        <Style BasedOn="{StaticResource {x:Type MenuItem}}" TargetType="{x:Type MenuItem}">
+                            <Setter Property="Command" Value="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type metro:DropDownButton}}, Path=DataContext.GenreDropDownMenuItemCommand}" />
+                            <Setter Property="CommandParameter" Value="{Binding TableType}" />
+                            <Setter Property="Icon" Value="{StaticResource ResourceMenuIcon}" />
+                        </Style>
+                    </metro:DropDownButton.ItemContainerStyle>
+                    <metro:DropDownButton.Icon>
+                        <iconPacks:PackIconMaterial Kind="ArrowDownDropCircleOutline" />
+                    </metro:DropDownButton.Icon>
+                </metro:DropDownButton>
+                <Button Height="32px" Click="SetResOnClick">
+                    <iconPacks:PackIconMaterial Kind="Link" />
+                    <Button.ToolTip>
+                        <ToolTip Placement="Right">
+                            <TextBlock>设置资源目录</TextBlock>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <!--<Button Name="BtnSave" Height="32px" Margin="3,0,2,0">
+                    <iconPacks:PackIconMaterial Kind="ContentSave" />
+                </Button>-->
+            </StackPanel>
+        </StackPanel>
+        <DataGrid  Grid.Row="1" Name="McDataGrid" Visibility="Hidden" AutoGenerateColumns="False" HeadersVisibility="All" RowHeaderWidth="20">
+            <DataGrid.Style>
+                <Style BasedOn="{StaticResource MahApps.Styles.DataGrid}" TargetType="{x:Type DataGrid}">
+                    <Setter Property="AlternatingRowBackground" Value="{DynamicResource MahApps.Brushes.Gray10}" />
+                </Style>
+            </DataGrid.Style>
+            <DataGrid.RowStyle>
+                <Style BasedOn="{StaticResource MahApps.Styles.DataGridRow}" TargetType="{x:Type DataGridRow}">
+                    <Style.Triggers>
+                        <!--  IsMouseOver  -->
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding Path=IsMouseOver, RelativeSource={RelativeSource Self}}" Value="true" />
+                            </MultiDataTrigger.Conditions>
+                            <!--<Setter Property="Background" Value="#FFBDBD" />-->
+                        </MultiDataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+        </DataGrid>
+        <StatusBar Grid.Row="2">
+            <StatusBarItem>Editor</StatusBarItem>
+            <Separator Style="{StaticResource MahApps.Styles.Separator.StatusBar}" />
+            <StatusBarItem>资源路径:</StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Name="StatusBarRes"></TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</metro:MetroWindow>

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/UI/Materials/Scenes/Login.unity
+    guid: dfb03a16ee201f34987730fcb5a74fcd
+  - enabled: 1
+    path: Assets/UI/Materials/Scenes/Character Create.unity
+    guid: 702492a7aab0c98459b185a4c9dce588
+  - enabled: 1
+    path: Assets/UI/Materials/Scenes/Character Select (3D).unity
+    guid: 895ea9ec15f0be047b37d539cec4d607
+  - enabled: 1
+    path: Assets/UI/Materials/Scenes/Character Select (List).unity
+    guid: 0b1441652ea77154d9fbb29b86681573
+  - enabled: 1
+    path: Assets/UI/Materials/Scenes/Hero Select.unity
+    guid: 00d49d2baa57eea40a5f719c818bc80b
+  - enabled: 1
+    path: Assets/UI/Materials/Scenes/In-Game.unity
+    guid: 81d05792bdfe82445a039759e61a2b92
+  m_configObjects: {}
